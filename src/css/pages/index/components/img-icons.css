@@ -1,0 +1,12 @@
+.container-skills img {
+    width: 5rem;
+    transition: transform .2s;
+}
+
+.container-skills img:hover {
+    transform: scale(1.08);
+}
+
+.js-icon {
+    border-radius: .5rem;
+}

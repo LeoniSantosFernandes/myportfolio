@@ -1,0 +1,28 @@
+
+.container-title p {
+    font-size: 5rem;
+    line-height: 4.2rem;
+}
+
+/* 
+.front {
+    text-decoration: 4px line-through;
+} */
+
+.container-title h2 {
+    font-size: 3rem;
+}
+
+.container-title article {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: var(--primaryColor);
+    font-weight: 100;
+    font-family: var(--roboto);
+}
+
+.container-title div {
+    display: flex;
+    align-items: center;
+}

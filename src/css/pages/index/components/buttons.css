@@ -1,0 +1,44 @@
+.container-buttons a {
+    padding: 1.6rem 3.8rem;
+    border: 1px solid var(--primaryColor);
+    border-radius: .2rem;
+    font-family: var(--roboto);
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn1:active {
+    box-shadow: inset 1px 2px rgba(255, 255, 255, 0.5);
+}
+
+.btn1 { 
+    color: var(--primaryColor);
+    background-color: rgba(240, 248, 255, 0);
+    box-shadow: 1px 3px var(--shadowButton);
+}
+
+.btn2:active {
+    box-shadow: inset 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.btn1:hover {
+    background-color: var(--bgButton);
+}
+
+.btn2 {
+    background-color: var(--primaryColor);
+    color: rgb(1, 2, 24);
+    box-shadow: 1px 3px var(--shadowButton)
+}
+
+.btn2:hover {
+    background-color: var(--bgButton);
+}
+
+/* font-family: 'Encode Sans', sans-serif;
+font-family: 'Prompt', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Code Pro', monospace;
+font-family: 'Work Sans', sans-serif; */

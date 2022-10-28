@@ -1,0 +1,98 @@
+
+@media screen and (max-width: 1250px) {
+
+    .container-title p {
+        font-size: 3.4rem;
+        line-height: 2rem;
+    }
+
+    .container-img img {
+        width: 34rem;
+    }
+
+    .container-buttons a {
+        padding: 1rem 2.5rem;   
+        font-size: 1.5rem;
+    }
+
+    .container-skills img {
+        width: 4.5rem;
+    }
+}
+
+@media screen and (max-width: 855px) {
+    .container-body {
+        flex-direction: column;
+    }
+
+    .container-title {
+        align-items: center;
+        text-align: center;
+        gap: 3.5rem;
+    }
+
+    .container-title p {
+        font-size: 4rem;
+        line-height: 2.5rem;
+    }
+
+    .container-img img {
+        width: 30rem;
+    }
+
+    .container-skills img {
+        width: 5rem;
+    }
+}
+
+@media screen and (max-width: 610px) {
+
+    .container-logo img {
+        display: none;
+    }
+
+    .container-header {
+        justify-content: center;
+    }
+
+    .container-nav ul {
+        padding: 3em 0rem;
+        gap: 3rem;
+        font-size: 1rem;
+    }
+
+    .container-nav ul li a {
+        font-size: 1.4rem;
+    }
+
+    .container-title p {
+        font-size: 3.5rem;
+        line-height: 2rem;
+    }
+
+    .container-body {
+        padding: 3.5rem 0rem;
+    }
+
+    .container-skills img {
+        width: 4rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+
+    .container-title p {
+        font-size: 2.8rem;
+        line-height: 1.5rem;
+    }
+
+}
+
+@media screen and (max-width: 370px) {
+
+    .container-title p {
+        font-size: 2.2rem;
+        line-height: .7rem;
+    }
+
+}

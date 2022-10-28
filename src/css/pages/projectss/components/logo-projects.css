@@ -1,0 +1,16 @@
+.container-logo img {
+    width: 5rem;
+    filter: hue-rotate(30deg);
+    color: var(--primaryColor);
+    transition-duration: .5s;
+    transition-property: transform, filter;
+}
+
+.container-logo img:hover {
+    transform: scale(1.1);
+    filter: hue-rotate(-20deg);
+}
+.container-logo h1 {
+    color: var(--primaryColor);
+    font-family: var(--roboto);
+}

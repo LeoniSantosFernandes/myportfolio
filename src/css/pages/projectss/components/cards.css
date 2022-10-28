@@ -1,0 +1,75 @@
+.cards-projects {
+    width: 31rem;
+    padding: 3rem 1.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    border-radius: 1.5rem;
+    background: linear-gradient(0deg, rgba(5, 7, 38, 0.219) 0%, rgba(20, 13, 42, 0.363) 78%);
+    box-shadow: 3px 3px 15px rgb(1, 1, 12);
+    transition: transform .5s;
+    font-family: var(--workSans);
+}
+
+.cards-projects:hover {
+    transform: scale(1.04);
+}
+
+.img-projects {
+    display: flex;
+
+}
+
+.img-projects img {
+    width: 14rem;
+
+}
+
+.titles-projects  {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.titles-projects h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--primaryColor);
+}
+
+.description {
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--primaryColor);
+}
+
+.repository {
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+
+.repository img {
+    width: 2rem;
+}
+
+
+.repository p{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+}
+
+.repository a{
+    color: rgba(204, 34, 34, 0.842);
+    font-size: 1.8rem;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.repository a:hover {
+    color: rgba(255, 255, 255, 0.651);
+}

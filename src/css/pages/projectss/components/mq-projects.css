@@ -1,0 +1,19 @@
+@media screen and (max-width: 490px) {
+
+    .container-logo img {
+        display: none;
+    }
+
+    .container-header {
+        justify-content: center;
+    }
+
+    .container-nav ul {
+        padding: 3em 0rem;
+        gap: 3rem;
+    }
+
+    .container-projects {
+        padding: 3rem 0rem;
+    }
+}
